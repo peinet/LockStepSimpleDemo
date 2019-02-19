@@ -1,0 +1,16 @@
+syntax = "proto3"; 
+package Protocol; 
+
+message SteerPositionReq{
+	float x = 1;
+	float y = 2;
+}
+
+message SteerPositionRsp{
+	int32 keyFrame=1;	// 哪个关键帧上处理该消息，该关键帧是第几帧
+	int32 msgIndex = 2;	// 该消息的序号，从0开始
+	int32 playerId = 3;
+	float x = 4;
+	float y = 5;
+	
+}

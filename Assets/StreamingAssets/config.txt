@@ -1,0 +1,1 @@
+﻿{"ServerAddress":"10.10.11.64", "IsServer":false, "PlayerId":1}

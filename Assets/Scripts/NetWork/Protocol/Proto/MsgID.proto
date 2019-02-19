@@ -1,0 +1,12 @@
+syntax = "proto3"; 
+package Protocol; 
+
+enum MsgID{
+	LoginReq=0;
+	LoginRsp=1;
+	LoginOutReq=2;
+	LoginOutRsp=3;
+    SteerPositionReq=4;
+	SteerPositionRsp=5;
+	LockStepEnd=6;
+}

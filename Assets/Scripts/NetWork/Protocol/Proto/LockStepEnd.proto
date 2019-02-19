@@ -1,0 +1,8 @@
+syntax = "proto3"; 
+package Protocol; 
+
+// 第X关键帧同步完成
+message LockStepEnd{
+	int32 keyFrame=2;	// 该关键帧是第几帧
+	int32 msgTotal = 3;	// 同步的消息数量
+}

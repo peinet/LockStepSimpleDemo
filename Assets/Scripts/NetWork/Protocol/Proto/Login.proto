@@ -1,0 +1,16 @@
+syntax = "proto3"; 
+package Protocol; 
+
+message LoginReq{
+}
+
+message LoginRsp{
+	int32 playerId=1;
+}
+
+message LoginOutReq{
+}
+
+message LoginOutRsp{
+	int32 playerId=1;
+}
